@@ -1,6 +1,6 @@
 .header {
   position: fixed;
-  padding: 0 1.5rem;
+  padding: 0 1rem;
   top: 0;
   display: flex;
   align-items: center;
@@ -39,6 +39,7 @@
   text-decoration: none;
   color: #aaa;
   font-size: 10px;
+  padding-left: 1rem;
 }
 
 .left-header .youtube-logo img {
@@ -155,7 +156,9 @@
 .right-header {
   display: flex;
   align-items: center;
+  justify-content: right;
   gap: 10px;
+  width: 225px;
 }
 
 .right-header .user-avator img {
